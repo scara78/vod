@@ -18,7 +18,7 @@
 export default {
   name: "about",
   created() {
-    document.title = "GomoviesLink - About";
+    document.title = "Vodlocker - About";
   }
 };
 </script>
