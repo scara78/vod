@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-layout raw wrap xs12>
       <v-flex xs12 class="my-5 text-xs-center">
-        <h1>Torrent Movies</h1>
+        <h1>Watch Online or Direct Download Movies Without Torren</h1>
       </v-flex>
 
       <v-flex xs12>
