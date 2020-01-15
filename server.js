@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const morgan = require("morgan");
-const WATCH ONLINE WITHOUT DOWNLOADINGBackend = require("live-torrent-backend");
+const liveTorrentBackend = require("live-torrent-backend");
 
 // setup env vars
 require("dotenv").config();
@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan("dev"));
 
 // server cors policy for backend api
-app.use("/api", cors(), WATCH ONLINE WITHOUT DOWNLOADINGBackend(true));
+app.use("/api", cors(), liveTorrentBackend(true));
 
 // for production
 if (process.env.NODE_ENV === "production") {
