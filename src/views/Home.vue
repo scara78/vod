@@ -12,8 +12,8 @@
           >
             <span style="color: #d21414">
               <i class="fas fa-circle logo"></i>
-              Live
-            </span> Torrent
+              Watch
+            </span> Torrent Movies
           </h1>
         </v-flex>
         <v-flex xs10 offset-xs1>
