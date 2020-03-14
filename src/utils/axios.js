@@ -13,7 +13,7 @@ export const searchEngine = params => backend.get(`/search`, { params });
 
 // yts movies service
 export const getMoviesList = (params = {}) =>
-  backend.get("https://yts.lt/api/v2/list_movies.json", {
+  backend.get("https://yts.mx/api/v2/list_movies.json", {
     params: {
       query_term: 0,
       with_rt_ratings: true,
@@ -28,10 +28,10 @@ export const getMoviesList = (params = {}) =>
   });
 export const getMovieDetails = id =>
   backend.get(
-    `https://yts.lt/api/v2/movie_details.json?with_images=true&with_cast=true&movie_id=${id}`
+    `https://yts.mx/api/v2/movie_details.json?with_images=true&with_cast=true&movie_id=${id}`
   );
 export const getSuggestedMovies = id =>
-  backend.get(`https://yts.lt/api/v2/movie_suggestions.json?movie_id=${id}`);
+  backend.get(`https://yts.mx/api/v2/movie_suggestions.json?movie_id=${id}`);
 
 //  movies captions
 export const loadCaptions = imdbID =>
